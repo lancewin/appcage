@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>技术支持 · 锁一下 AppCage</title>
+<link rel="alternate" hreflang="en" href="support_en.html">
+<link rel="alternate" hreflang="zh-Hans" href="support_zh.html">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #F5F7FA; --surface: #FFFFFF; --text: #17222E; --body: #5A6674;
+    --muted: #8A97A6; --line: #E4E9EF; --accent: #2F6BFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0F14; --surface: #161C23; --text: #F2F5F9; --body: #C3CCD6;
+      --muted: #98A5B4; --line: #242C35; --accent: #7E97FF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px; line-height: 1.7; -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 26px 20px 72px; }
+  nav {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+    padding-bottom: 13px; margin-bottom: 26px; border-bottom: 1px solid var(--line);
+    font-size: 13.5px;
+  }
+  nav .brand { font-weight: 600; margin-right: auto; }
+  nav a { color: var(--muted); text-decoration: none; }
+  nav a:hover { color: var(--text); }
+  nav a.on { color: var(--text); font-weight: 600; }
+  nav a.lang { border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; }
+  h1 { font-size: 24px; font-weight: 700; margin: 0 0 6px; letter-spacing: -.01em; }
+  .meta { font-size: 12.5px; color: var(--muted); margin-bottom: 22px; }
+  section {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+    padding: 15px 18px; margin-bottom: 12px;
+  }
+  h2 { font-size: 15.5px; font-weight: 600; margin: 0 0 6px; }
+  p { margin: 0; color: var(--body); font-size: 14px; }
+  p + p { margin-top: 8px; }
+  ul { margin: 8px 0 0; padding-left: 19px; color: var(--body); font-size: 14px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .q { font-size: 14.5px; font-weight: 600; color: var(--text); margin-bottom: 3px; }
+  .qa + .qa { margin-top: 14px; }
+  .foot { font-size: 12px; color: var(--muted); margin: 22px 4px 0; }
+  @media (min-width: 700px) { main { padding-top: 44px; } }
+</style>
+</head>
+<body>
+<main>
+
+<nav>
+  <span class="brand">锁一下 · AppCage</span>
+  <a href="terms_zh.html">用户协议</a>
+  <a href="privacy_zh.html">隐私政策</a>
+  <a href="support_zh.html" class="on">技术支持</a>
+  <a class="lang" href="support_en.html">English</a>
+</nav>
+
+<h1>技术支持</h1>
+<div class="meta">锁一下 · AppCage</div>
+
+<section>
+  <h2>常见问题</h2>
+
+  <div class="qa">
+    <div class="q">为什么有的应用图标会变淡？</div>
+    <p>受限应用由 iOS 系统负责拦截与显示，锁一下只负责按你的方案选择应用、写入限制，并在验证通过后限时放行。图标在桌面、资源库等位置的呈现方式由系统决定，锁一下无法改变。</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">忘记解锁密码怎么办？</div>
+    <p>在解锁页点「使用恢复码」，输入设置密码时抄写的恢复码，验证后即可重新设置新密码。恢复码只存于本机钥匙串，我们无法帮你找回，请务必抄写在安全的地方。</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">临时放行多久恢复？每天能用几次？</div>
+    <p>每次放行 15 分钟，到期由系统自动恢复守护，方案卡上会显示「放行至 21:43」。次数不限，想用多少次都可以，每次都需要验证身份。也可以在守护页手动「恢复守护」立即结束本次放行。</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">洞察里看不到更早的数据？</div>
+    <p>屏幕使用时间由系统统计与保留，通常只有最近约一个月，更早的用量取不回来。日历上早于这个范围的日期点开就是空的。</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">一次最多能限制多少个应用？</div>
+    <p>系统一次最多屏蔽 50 个应用令牌，超过会导致屏蔽整体失效。想覆盖大量应用，建议按「类别」选择 —— 一个类别令牌即可覆盖该类别下的全部应用。</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">换了新手机，方案还在吗？</div>
+    <p>方案随设备迁移备份恢复；解锁密码与恢复码只存于本机钥匙串，新设备上需要重新设置。</p>
+  </div>
+</section>
+
+<section>
+  <h2>订阅与退款</h2>
+  <ul>
+    <li>恢复购买：订阅页点「恢复购买」，用同一个 Apple ID 即可找回权益。</li>
+    <li>管理或取消订阅：系统「设置 › Apple ID › 订阅」，或在订阅页点「管理订阅」。</li>
+    <li>退款需通过 Apple 提交，我们无法代为操作。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>撤销授权</h2>
+  <p>在系统设置里关闭「屏幕使用时间」授权会同时解除全部限制。操作前请确认自己记得解锁密码与恢复码。</p>
+</section>
+
+<section>
+  <h2>联系我们</h2>
+  <p><a href="mailto:lancewin@foxmail.com">lancewin@foxmail.com</a></p>
+</section>
+
+<p class="foot">锁一下 · AppCage 由 AppCage 团队开发并维护。</p>
+
+</main>
+</body>
+</html>

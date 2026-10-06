@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Support · AppCage</title>
+<link rel="alternate" hreflang="en" href="support_en.html">
+<link rel="alternate" hreflang="zh-Hans" href="support_zh.html">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #F5F7FA; --surface: #FFFFFF; --text: #17222E; --body: #5A6674;
+    --muted: #8A97A6; --line: #E4E9EF; --accent: #2F6BFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0F14; --surface: #161C23; --text: #F2F5F9; --body: #C3CCD6;
+      --muted: #98A5B4; --line: #242C35; --accent: #7E97FF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px; line-height: 1.7; -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 26px 20px 72px; }
+  nav {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+    padding-bottom: 13px; margin-bottom: 26px; border-bottom: 1px solid var(--line);
+    font-size: 13.5px;
+  }
+  nav .brand { font-weight: 600; margin-right: auto; }
+  nav a { color: var(--muted); text-decoration: none; }
+  nav a:hover { color: var(--text); }
+  nav a.on { color: var(--text); font-weight: 600; }
+  nav a.lang { border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; }
+  h1 { font-size: 24px; font-weight: 700; margin: 0 0 6px; letter-spacing: -.01em; }
+  .meta { font-size: 12.5px; color: var(--muted); margin-bottom: 22px; }
+  section {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+    padding: 15px 18px; margin-bottom: 12px;
+  }
+  h2 { font-size: 15.5px; font-weight: 600; margin: 0 0 6px; }
+  p { margin: 0; color: var(--body); font-size: 14px; }
+  p + p { margin-top: 8px; }
+  ul { margin: 8px 0 0; padding-left: 19px; color: var(--body); font-size: 14px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .q { font-size: 14.5px; font-weight: 600; color: var(--text); margin-bottom: 3px; }
+  .qa + .qa { margin-top: 14px; }
+  .foot { font-size: 12px; color: var(--muted); margin: 22px 4px 0; }
+  @media (min-width: 700px) { main { padding-top: 44px; } }
+</style>
+</head>
+<body>
+<main>
+
+<nav>
+  <span class="brand">AppCage</span>
+  <a href="terms_en.html">Terms of Use</a>
+  <a href="privacy_en.html">Privacy Policy</a>
+  <a href="support_en.html" class="on">Support</a>
+  <a class="lang" href="support_zh.html">中文</a>
+</nav>
+
+<h1>Support</h1>
+<div class="meta">AppCage</div>
+
+<section>
+  <h2>FAQ</h2>
+
+  <div class="qa">
+    <div class="q">Why do some app icons look faded?</div>
+    <p>iOS both blocks and displays restricted apps. AppCage only picks the apps per your plan, writes the limits, and lifts them for a while once you verify. How an icon looks on the Home Screen or in the App Library is up to iOS — AppCage can't change it.</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">What if I forget my passcode?</div>
+    <p>On the unlock screen, tap “Use recovery code” and enter the code you wrote down when you set your passcode. You can then set a new one. The recovery code lives only in this device's Keychain and we can't recover it for you, so keep it somewhere safe.</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">How long does temporary access last? How often can I use it?</div>
+    <p>Each one lasts 15 minutes; iOS resumes shielding on its own, and the plan card shows “Allowed until 21:43”. There's no limit on how often you use it — you verify each time. You can also tap “Resume shielding” on the Guard tab to end one immediately.</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">Why can't I see older data in Insights?</div>
+    <p>iOS measures and keeps Screen Time data, usually for about the last month. Earlier usage can't be retrieved, and calendar days before that range open empty.</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">How many apps can I restrict at once?</div>
+    <p>iOS blocks at most 50 app tokens at a time; going over makes the whole blocking fail. To cover a lot of apps, pick by category — one category token covers every app in it.</p>
+  </div>
+
+  <div class="qa">
+    <div class="q">I got a new phone — are my plans still there?</div>
+    <p>Plans come back with a device migration or backup. The passcode and recovery code live in this device's Keychain only, so you'll set them again on a new device.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Subscriptions and refunds</h2>
+  <ul>
+    <li>Restore purchases: tap “Restore Purchases” on the subscription page with the same Apple ID.</li>
+    <li>Manage or cancel: Settings › Apple ID › Subscriptions, or tap “Manage Subscription” on the subscription page.</li>
+    <li>Refunds go through Apple — we can't process them for you.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Revoke authorization</h2>
+  <p>Turning off Screen Time authorization in Settings lifts every limit at once. Make sure you remember your passcode and recovery code before you do.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p><a href="mailto:lancewin@foxmail.com">lancewin@foxmail.com</a></p>
+</section>
+
+<p class="foot">AppCage is built and maintained by the AppCage team.</p>
+
+</main>
+</body>
+</html>
